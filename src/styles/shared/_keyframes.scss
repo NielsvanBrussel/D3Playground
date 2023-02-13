@@ -1,0 +1,19 @@
+@keyframes fading-out {
+    100% {
+        opacity: 1;
+        display: flex;
+    }
+    0% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes fading-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

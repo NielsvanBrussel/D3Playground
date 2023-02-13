@@ -1,0 +1,38 @@
+
+@import './styles/shared/colours';
+
+
+.header {
+    width: 15rem;
+    position: fixed;
+    height: 100vh;
+    z-index: 2;
+    border-right: 3px solid $colour-yellow-medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: $colour-blue-medium;
+    align-items: stretch;
+}
+
+.nav__sidebar__li {
+    width: 100%;
+   .nav__sidebar__navlink__active {
+        background-color: $colour-yellow-medium;
+        color: $colour-blue-medium;
+    }
+
+    .nav__sidebar__navlink {
+        color: $colour-yellow-medium;
+    }
+
+    .nav__sidebar__navlink, .nav__sidebar__navlink__active {
+        display: block;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        
+    } 
+}
+
+
+
